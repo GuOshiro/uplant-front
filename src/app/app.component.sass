@@ -1,0 +1,35 @@
+// Background Images
+
+.up-background-login
+  background-image: url('../assets/img/up-background-login.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  height: 100vh
+
+.up-login-background
+  border-bottom: 100vh solid white
+  border-left: 70px solid transparent
+  border-right: 0 solid transparent
+  height: 0
+  min-width: 50%
+  position: absolute
+  right: 0
+  &.up-shadow
+    min-width: calc(50% + 20px)
+    border-bottom: 100vh solid rgba(40, 40, 40, 0.4)
+    -webkit-filter: blur(15px)
+    -moz-filter: blur(15px)
+    -o-filter: blur(15px)
+    -ms-filter: blur(15px)
+    filter: blur(15px)
+  &.up-green
+    min-width: calc(50% + 20px)
+    border-bottom: 100vh solid #64c577
+
+
+.up-login-form
+  margin: 10%
+
+
+

@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from '../app-routing.module';
 import { ServicesModule } from '../services/services.module';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -17,9 +18,8 @@ import { ServicesModule } from '../services/services.module';
     HttpModule,
     ReactiveFormsModule,
     FormsModule,
-    RouterModule,
     AppRoutingModule,
-    ServicesModule
+    ServicesModule,
   ],
   exports: [
     CommonModule,
